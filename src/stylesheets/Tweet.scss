@@ -1,0 +1,86 @@
+
+body {
+font-family: 'Ubuntu', sans-serif;
+background-color: lightgrey;
+}
+
+
+
+#tweet_box {
+  border-style: solid;
+  max-width: 900px;
+  max-height: 200px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-bottom: 5px;
+  background-color: white;
+}
+
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+#tweet_box > #name {
+  padding-left: 25px;
+  display: inline;
+  font-weight: bold;
+}
+
+#tweet_box > #text {
+  padding-left: 100px;
+  padding-right: 10px;
+}
+
+#tweet_box > #screen {
+  padding-left: 100px;
+  color: grey;
+  display: inline;
+}
+
+#tweet_box > #fave {
+  display: inline;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  color: grey;
+  font-family: 'Nunito', sans-serif;
+}
+
+#tweet_box > #rt {
+  display: inline;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  color: grey;
+  font-family: 'Nunito', sans-serif;
+}
+
+
+
+
+a {
+  color: grey;
+}
+
+#tweet_box > #reply {
+  padding-left: 100px;
+
+}
+
+#tweet_box > #more {
+  padding-left: 40px;
+  font-size: 10px;
+  padding-bottom: 10px;
+
+}
+
+#tweet_box > #retweet {
+  display: inline;
+  padding-left: 150px;
+}
+
+
+button {
+  color: grey;
+}

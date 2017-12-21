@@ -12,7 +12,7 @@ const Tweet = props => {
 
 <div id="tweet_box">
 
-{/* <p id="timestamp_ms">{props.timestamp_ms}</p> */}
+<p id="timestamp_ms">{props.timestamp_ms}</p>
 <img id="image" src={props.image}/>
 <p id="name">{props.name}</p>
 <p id="screen">@{props.screen_name}</p>
@@ -32,7 +32,7 @@ const Tweet = props => {
 
 <button className="fa fa-ellipsis-h" aria-hidden="true" id="more" onClick={ (event) => { alert('More')} }></button>
 
-
+<img src={props.mediaURL}/>
 
 
 
